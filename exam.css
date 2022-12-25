@@ -1,6 +1,42 @@
-*
-.img
-{
+   /*  references::after
+   https://alvarotrigo.com/blog/hamburger-menu-css/
+   https://developer.mozilla.org/en-US/docs/Web/CSS/transition
+   https://developer.mozilla.org/en-US/docs/Web/CSS/transition  */
 
-    width: 30px;
+   @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+.img1
+{
+    width: 600px;
+    padding-top: 10px;
+    
+}
+
+body {
+background-color: whitesmoke;
+font-family: 'Oswald', sans-serif;
+}
+
+.div1 {
+    background-color: #5B8D43;
+    height: 100px;
+    width: 2000px;
+    text-align: left;
+    text-shadow: 1;
+}
+
+.font1 {
+  font-family: 'Playfair Display', serif;
+
+}
+
+.img2 {
+  width: 800px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.div1 {
+
+  text-shadow: 100px;
 }
