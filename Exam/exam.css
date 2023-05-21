@@ -1,0 +1,73 @@
+/*  references::after
+   https://alvarotrigo.com/blog/hamburger-menu-css/
+   https://developer.mozilla.org/en-US/docs/Web/CSS/transition
+   https://developer.mozilla.org/en-US/docs/Web/CSS/transition  */
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+.img1 {
+  width: 600px;
+  padding-top: 10px;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Oswald", sans-serif;
+}
+
+.div1 {
+  background-color: #5b8d43;
+  height: 0px;
+  width: 90%;
+  text-align: center;
+  text-shadow: 1;
+}
+p {
+  width: flex;
+}
+
+.font1 {
+  font-family: "Playfair Display", serif;
+}
+
+.img2 {
+  width: 800px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.div1 {
+  text-shadow: 100px;
+}
+
+
+:root {
+  --footer-color: #333;
+}
+
+.footer {
+  background-color: var(--footer-color);
+  color: bisque;
+  padding: 20px;
+}
+
+
+/* FLEXBOX------------------------------*/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+  .row {
+      display: flex;
+      font-size: inherit;
+      
+      gap: 15px;
+  }
+
+  .column {
+      background-color: #a1a49f;
+      padding: 1rem 0;
+      flex: 1;
+  }

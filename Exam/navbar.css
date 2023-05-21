@@ -1,0 +1,46 @@
+body {
+  margin: 20px;
+  padding: 100px;
+}
+
+.navbar {
+  display: grid;
+  background: #698269;
+  width: 85%;
+  height: 80px;
+  margin: 0;
+  position: fixed;
+  Top: 0;
+  padding: 20px;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+}
+
+.navbar li {
+  margin: 20px;
+  list-style: none;
+  float: left;
+}
+
+.navbar li a {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+  font-family: Helvetica;
+  text-decoration: none;
+}
+
+.navbar:shadow {
+  background-color: bisque;
+  color: #698269;
+}
+
+.title {
+  margin: 20;
+  font-size: 42px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  font-family: Helvetica;
+}
+
